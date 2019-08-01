@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -145,7 +147,10 @@ nav li {
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 600px) {
+.cost-box ol {
+    height: 166px;
+}
+@media screen and (max-width: 640px) {
     .cost-box {
     display: flex;
     flex-direction: column;
