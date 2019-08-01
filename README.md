@@ -4,6 +4,8 @@ learn with [Free Code Camp](http://www.freecodecamp.org)
 
 ## Responsive Web Projects
 
-[Tribute Page](http://spencerpilling.com/FCC_Projects/Tribute_Page/)
-[Survey Form](http://spencerpilling.com/FCC_Projects/Survey_Form/)
-[Product_Page](http://spencerpilling.com/FCC_Projects/Product_Page/)
+Check out the [Tribute Page](http://spencerpilling.com/FCC_Projects/Tribute_Page/)
+
+Check out the [Survey Form](http://spencerpilling.com/FCC_Projects/Survey_Form/)
+
+Check out the [Product_Page](http://spencerpilling.com/FCC_Projects/Product_Page/)
