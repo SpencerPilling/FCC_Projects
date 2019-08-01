@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<link rel="stylesheet" class="text/css" a href="main.css">
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>FCC - Product Landing Page</title>
+</head>
+<body>
+    <!-- Hide FCC Test Script
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    -->    
+    <header id="header">
+        <img id="header-img" src="kazoo-logo.jpg">
+            <nav id="nav-bar">
+                <ul>
+                <li><a href="#made" class="nav-link">How It's Made</a></li>
+                <li><a href="#works" class="nav-link">How They Work</a></li>
+                <li><a href="#cost" class="nav-link">What They Cost</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    <section id="newsletter">
+        <h2>Hand Crafted Kazoo's Newsletter</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submite">
+            <input name="email" id="email" type="email" placeholder="Please Enter your Email here." required/>
+            <input id="submit" type="submit" value="Sign Up!" class="btn"></input>
+        </form>
+    </section>
+    
+    <section id="made">
+        <div class="made-box">
+            <div class="icon">
+                <i class="fas fa-3x fa-handshake"></i>
+            </div>
+            <div class="info">
+                <h2>Hand picked Materials</h2>
+                <p>We work with local suppliers to find the highest quailty materials to hand craft our Kazoo's. We support local business and keep the money within our
+                local community.</p>
+            </div>
+        </div>
+        <div class="made-box">
+            <div class="icon">
+                <i class="fas fa-3x fa-shipping-fast"></i>
+            </div>
+            <div class="info">
+                <h2>Fast Reliable Shipping</h2>
+                <p>We use top of the line and well reviewed shippers to make sure you get your Kazoo's in time for that big performance. We also provide free returns
+                at no cost to you, the customer, if you are not satisfied with your new Kazoo!</p>
+            </div>
+        </div>
+        <div class="made-box">
+            <div class="icon">
+                <i class="fas fa-3x fa-music"></i>
+            </div>
+            <div class="info">
+                <h2>Tested Sound Quality</h2>
+                <p>Before we send out our Kazoo's, we make sure that they are tested for perfect pitch and tone by one of our many sound engineers.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JofXJWsCWtE" frameborder="0" allow="accelermeter; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="cost">
+        <div class="cost-box">
+            <div class="cost-info">
+                <div class="cost-info-header">Wooden Kazoo</div>
+                <h2>$25.00</h2>
+                <ol>
+                    <li>Made from quailty birch wood</li>
+                    <li>Natural sounding</li>
+                    <li>Exquised looking finish</li>
+                    <li>Comfortable lips to Wood</li>
+                </ol>
+                <button class="button">Buy</button>
+            </div>
+            <div class="cost-info">
+                <div class="cost-info-header">Plastic Kazoo</div>
+                <h2>$50.00</h2>
+                <ol>
+                    <li>Made from recycled straws</li>
+                    <li>Dishwasher friendly</li>
+                    <li>Variety of colors</li>
+                    <li>Lightwieght for travel</li>
+                </ol>
+                <button class="button">Buy</button>
+            </div>
+            <div class="cost-info">
+                <div class="cost-info-header">Metal Kazoo</div>
+                <h2>$75.00</h2>
+                <ol>
+                    <li>Made from surgical steel</li>
+                    <li>Very strong and heavy</li>
+                    <li>Chrome finish</li>
+                    <li>Can also be used as fishing weight</li>
+                </ol>
+                <button class="button">Buy</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2019, Hand Crafted Kazoo's</span>
+    </footer>
+</body>
+</html>

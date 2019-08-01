@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body {
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+#main {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#form {
+    background-color: rgb(102, 153, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+#title {
+    color: rgb(255, 255, 255);
+}
+#description {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#name {
+    width: 70%;
+}
+#email {
+    width: 70%;
+}
+#number {
+    width: 70%;
+}
+#dropdown {
+    width: 70%;
+    margin-left: 20px;
+}
+#commentsText {
+    margin-left: 20px;
+    height: 60px;
+    width: 70%;
+    resize: vertical;
+}
+#submitButton {
+    width: 100px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 180, 255);
+    border-radius: 5px;
+    margin: 10px;
+}
+label {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+input {
+    margin-left: 20px;
+}
+.right {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 35%;
+    padding: 5px;
+}
+.left {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 35%;
+    padding: 5px;
+}
+@media screen and (max-width: 480px) {
+    .right {
+        width:100%;
+        text-align: left;
+    }
+    .left {
+        width: 80%;
+        float: left;
+    }
+}

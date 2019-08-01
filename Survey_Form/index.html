@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="stylesheet" class="text/css" a href="main.css">
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <!--
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        -->
+        <div id="main">
+            <h1 id="title">Survey Form</h1>
+            <div id="form">
+            <p id="description">Please take the time and fill out a Quick Video Game Survey</p>
+            <form id="survey-form" method="GET">
+                <div class="right">
+                    <label id="name-label" for="name">* Name:</label>
+                </div>
+                <div class="left">
+                    <input id="name" name="name" type="text" placeholder="Enter your Name" required>
+                </div>
+                <div class="right">
+                    <label id="email-label" for="email">* Email:</label>
+                </div>
+                <div class="left">
+                    <input id="email" name="email" type="email" placeholder="me@example.com" required><br>
+                </div>
+                <div class="right">
+                    <label id="number-label" for="age">* Age:</label>
+                </div>
+                <div class="left">
+                    <input id="number" name="age" type="number" placeholder="Age" min="1" max="110" required><br>
+                </div>
+                <div class="right">
+                    <label id="dropdown-label" for="games">What type of games do you play?</label>
+                </div>
+                <div class="left">
+                    <select id="dropdown" name="games">
+                        <option disabled value>Please choose an option</option>
+                        <option value="Roleplay">Role Playing</option>
+                        <option value="Firstperson">First Person Shooters</option>
+                        <option value="RTS">Real Time Stragegy</option>
+                        <option value="Puzzle">Puzzle</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <label id="often-label" for="often">How often, in a week, do you play?</label>
+                </div>
+                <div class="left">
+                    <input id="oftenRadio" name="often" type="radio" value="1"><label>0-5 Hours</label><br>
+                    <input id="oftenRadio" name="often" type="radio" value="2"><label>5-10 Hours</label><br>
+                    <input id="oftenRadio" name="often" type="radio" value="3"><label>10-15 Hours</label><br>
+                    <input id="oftenRadio" name="often" type="radio" value="4"><label>Above 15 Hours</label>
+                </div>
+                <div class="right">
+                    <label id="devname-label">Who is your favorite games developers?</label>
+                </div>
+                <div class="left">
+                    <input id="devCheckbox" name="Blizzard" value="Blizzard" type="checkbox"><label for="Blizzard">Blizzard Entertainment</label><br>
+                    <input id="devCheckbox" name="Epic" value="Epic" type="checkbox"><label for="Epic">Epic Games</label><br>
+                    <input id="devCheckbox" name="Valve" value="Valve" type="checkbox"><label for="Valve">Valve</label><br>
+                    <input id="devCheckbox" name="Microsoft Studios" value="Microsoft" type="checkbox"><label for="Microsoft">Microsoft Studios</label>
+                </div>
+                <div class="right">
+                    <label id="comments" for="comments">Addtional Comments:</label>    
+                </div>
+                <div class="left">
+                <textarea id="commentsText" name="comments" placeholder="Addtional comments here..."></textarea>
+                </div>
+                <div><button id="submit" type="submit">Submit</button></div>
+            </form>
+            </div>
+        </div>
+
+    </body>
+</html>

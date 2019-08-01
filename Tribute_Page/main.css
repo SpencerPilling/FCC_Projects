@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    font-family: fantasy;
+    font-size: 45px;
+    padding-top: 30px;
+    margin-bottom: -5px;
+}
+h3 {
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(204, 204, 0);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(204, 204, 0);
+}
+.medium-text {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#main {
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(26, 26, 26);
+  border-radius: 10px;
+}
+#title {
+    text-align: center;
+    color: rgb(204, 204, 0);
+}
+#img-div {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 90%;
+    background-color: rgb(64, 64, 64);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding:  10px 20px 10px 20px;
+}
+#img-caption {
+    font-size: 8px;
+}
+#tribute-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(64, 64, 64);
+}
+#tribute-info {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+#tibute-link {
+    color: rgb(204, 204, 0);
+}
+#footer {
+    padding: 5px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
