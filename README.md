@@ -1,6 +1,6 @@
-# Welcome to my Free Code Camp projects
+# Welcome to my FreeCodeCamp projects
 This is where I will be uploading my projects that I am currently building while I
-learn with [Free Code Camp](http://www.freecodecamp.org)
+learn with [FreeCodeCamp](http://www.freecodecamp.org)
 
 ## Responsive Web Projects
 
