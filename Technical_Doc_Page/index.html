@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <!-- Nav Bar  -->
-        <nav class="nav_sidebar" id="#navbar">
+        <nav class="nav_sidebar" id="navbar">
             <div class="nav_heading">
                 <img class="nav_image" src="images/sass_logo.png">
                 <header class="nav_image_caption">
@@ -20,7 +20,7 @@
                 <div class="nav-link">
                     <a href="#intro">Introduction</a></div>
                 <div class="nav-link">
-                    <a href="#syntax">Syntax</a></div>
+                    <a href="#pre_process">Pre Processing</a></div>
                 <div class="nav-link">
                     <a href="#style_rules">Style Rules</a></div>
                 <div class="nav-link">
@@ -43,8 +43,8 @@
         </nav>
         <!-- End of Nav Bar -->
         <!-- Main Page -->
-        <main id="#main-doc">
-        <section class="main_content" id="#intro">
+        <main class="main_wrapper" id="main-doc">
+        <section class="main_content" id="intro">
             <header class="content_header">Introduction</header>
                 <p class="content_paragraph">Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
                     <div class="list_wrapper">
@@ -55,6 +55,33 @@
                       </ul>
                   </div>
             </section>
+            <section class="main_content" id="pre_process">
+                <header class="content_header">Pre Processing</header>
+                    <p class="content_paragraph">CSS on its own can be fun, but stylesheets are getting larger, more complex, and harder to maintain. This is where a preprocessor can help. Sass lets you use features that don't exist in CSS yet like variables, nesting, mixins, inheritance and other nifty goodies that make writing CSS fun again..</p>
+
+                    <p class="content_paragraph">Once you start tinkering with Sass, it will take your preprocessed Sass file and save it as a normal CSS file that you can use in your website.</p>
+                        
+                    <p class="content_paragraph">The most direct way to make this happen is in your terminal. Once Sass is installed, you can compile your Sass to CSS using the sass command. You'll need to tell Sass which file to build from, and where to output CSS to. For example, running sass input.scss output.css from your terminal would take a single Sass file, input.scss, and compile that file to output.css.</p>
+                        
+                    <p class="content_paragraph">You can also watch individual files or directories with the --watch flag. The watch flag tells Sass to watch your source files for changes, and re-compile CSS each time you save your Sass. If you wanted to watch (instead of manually build) your input.scss file, you'd just add the watch flag to your command, like so:</p>
+                    <br>
+                    <div class="content_code">
+                        <code>    
+                            sass --watch input.scss output.css
+                        </code>
+                    </div>
+                    <br>    
+                    <p class="content_paragraph">You can watch and output to directories by using folder paths as your input and output, and separating them with a colon. In this example:</p>
+                    <br>
+                    <div class="content_code">
+                        <code>    
+                            sass --watch app/sass:public/stylesheets
+                        </code>
+                    </div>
+                    <br>    
+                    <p class="content_paragraph">Sass would watch all files in the app/sass folder for changes, and compile CSS to the public/stylesheets folder.</p>
+                    </div>
+                </section>
         </main>
         <!-- End of Main Page -->
     </div>
