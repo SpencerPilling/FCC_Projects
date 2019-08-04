@@ -54,6 +54,7 @@ body {
 .main_wrapper {
     position: absolute;
     margin-left: 23rem;
+    padding-bottom: 10rem;
 
 }
 .main_content {
@@ -75,8 +76,25 @@ body {
 .list_wrapper li {
     padding-bottom: 1rem;
 }
+.content_code_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    
+}
 .content_code {
-    padding: 0rem 0 1rem 3rem;
+    margin: 0rem 0 1rem 3rem;
+    padding: 1rem;
+    background-color: #fde7e7;
+}
 
+.content_code_box {
+    margin-left: 2rem;
+    /* height: 20rem;
+    width: 20rem; */
+}
+.content_code_header {
+    margin-left: 2rem;
+    margin-bottom: .8rem;
 }
 /* End of Main Content */
