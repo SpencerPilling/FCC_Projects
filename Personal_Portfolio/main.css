@@ -103,7 +103,7 @@ html {
     padding: 3rem 0 5rem 0;
     text-align: center;
 }
-.project_box1 {
+.project-tile {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     border-radius: .5rem;
