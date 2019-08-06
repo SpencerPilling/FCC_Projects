@@ -89,7 +89,7 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: 5rem 20rem 20rem 2rem; */
-    grid-template-rows: 5rem 1fr 1fr 5rem;
+    grid-template-rows: 5rem 1fr 1fr 2rem;
     grid-gap: 2rem;
     background-image: linear-gradient(-90deg, #004466, #082f42);
     width: 100%;
@@ -149,7 +149,7 @@ html {
     border-radius: 0 0 .5rem .5rem;
     font-family: 'Russo One', sans-serif;
     font-size: 1.3rem;
-    padding: 1.4rem;
+    padding: 0.7rem;
     text-align: center;
 }
 .link_box a {
@@ -208,5 +208,106 @@ html {
 }
 /* End of Footer Section */
 /* Media Querys */
-
+@media only screen and (max-width: 1114px) {
+    .nav-link a {
+        font-size: 1.3rem;
+    }
+    .welcome_header {
+        font-size: 4rem;
+    }
+    .welcome_paragraph {
+        font-size: 1rem;
+    }
+    .project_header {
+        font-size: 1.1rem;
+    }
+    .link_box {
+        font-size: 1rem;
+    }
+    .contact_header {
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar li {
+        margin-top: 0rem;
+        padding: 1rem;
+    }
+    .nav-link a {
+        font-size: 1.1rem;
+    }
+    .welcome_header {
+        font-size: 3rem;
+    }
+    .welcome_paragraph {
+        font-size: .5rem;
+    }
+    .project_header {
+        font-size: 1.2rem;
+    }
+    .link_box {
+        font-size: 1rem;
+    }
+    .contact_section {
+        height: 14rem;
+    }
+    .contact_header {
+        font-size: 1.8rem;
+    }
+    .contact_img1{
+        height: 4rem;
+        width: 4rem;
+    }
+    .contact_img2 {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .navbar {
+        height: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar li {
+        margin-top: 0rem;
+        padding: 1rem;
+    }
+    .nav-link a {
+        font-size: 1.1rem;
+    }
+    .welcome_header {
+        font-size: 2.5rem;
+    }
+    .welcome_paragraph {
+        font-size: .5rem;
+    }
+    .project_header {
+        font-size: .8rem;
+        padding-bottom: 1rem;
+    }
+    .link_box {
+        font-size: .5rem;
+    }
+    .contact_section {
+        height: 10rem;
+    }
+    .contact_header {
+        margin-top: 2rem;
+        font-size: 1.0rem;
+    }
+    .contact_img1{
+        height: 3rem;
+        width: 3rem;
+    }
+    .contact_img2 {
+        height: 4rem;
+        width: 4rem;
+    }
+}
 /* End of Media Querys */
