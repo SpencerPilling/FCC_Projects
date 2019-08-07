@@ -87,53 +87,42 @@ html {
 /* Project Section */
 .project-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: 5rem 20rem 20rem 2rem; */
+    grid-template-columns: repeat(4, 1.5fr);
     grid-template-rows: 5rem 1fr 1fr 2rem;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+    overflow: none;
     background-image: linear-gradient(-90deg, #004466, #082f42);
     width: 100%;
     height: 100%;
 }
 .project_header {
     grid-column: 2 / 4;
+    grid-row: 1 / 2;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5rem;
     color: #FFF;
-    padding: 3rem 0 5rem 0;
+    padding-top: 2rem;    
     text-align: center;
 }
 .project-tile {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     border-radius: .5rem;
-    /* box-shadow: 5px 5px 6px 5px #888888; */
-    /* width: 20rem;
-    height: 30rem; */
 }
 .project_box2 {
     grid-row: 2 / 3;
     grid-column: 3 / 4;
     border-radius: .5rem;
-    /* box-shadow: 5px 5px 6px 5px #888888; */
-    /* width: 20rem;
-    height: 30rem; */
 }
 .project_box3 {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     border-radius: .5rem;
-    /* box-shadow: 5px 5px 6px 5px #888888; */
-    /* width: 20rem;
-    height: 30rem; */
 }
 .project_box4 {
     grid-row: 3 / 4;
     grid-column: 3 / 4;
     border-radius: .5rem;
-    /* box-shadow: 5px 5px 6px 5px #888888; */
-    /* width: 20rem;
-    height: 30rem; */
 }
 .project_img {
     display: block;
@@ -165,17 +154,18 @@ html {
 .contact_section {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-image: linear-gradient(-90deg, #00111a, #002233);
     width: 100%;
-    height: 18rem;
-    /* justify-content: center; */
+    height: 100%;
     align-items: center;
 }
 .contact_header {
     font-family: 'Ropa Sans', sans-serif;
     font-size: 3rem;
     color: #b3e6ff;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 .contact_img1{
     height: 6rem;
@@ -215,8 +205,8 @@ html {
     .welcome_header {
         font-size: 4rem;
     }
-    .welcome_paragraph {
-        font-size: 1rem;
+    .welcome_header2 {
+        font-size: 1.5rem;
     }
     .project_header {
         font-size: 1.1rem;
@@ -244,17 +234,14 @@ html {
     .welcome_header {
         font-size: 3rem;
     }
-    .welcome_paragraph {
-        font-size: .5rem;
+    .welcome_header2 {
+        font-size: 1.3rem;
     }
     .project_header {
         font-size: 1.2rem;
     }
     .link_box {
         font-size: 1rem;
-    }
-    .contact_section {
-        height: 14rem;
     }
     .contact_header {
         font-size: 1.8rem;
@@ -284,8 +271,8 @@ html {
     .welcome_header {
         font-size: 2.5rem;
     }
-    .welcome_paragraph {
-        font-size: .5rem;
+    .welcome_header2 {
+        font-size: 1.2rem;
     }
     .project_header {
         font-size: .8rem;
@@ -294,9 +281,6 @@ html {
     .link_box {
         font-size: .5rem;
     }
-    .contact_section {
-        height: 10rem;
-    }
     .contact_header {
         margin-top: 2rem;
         font-size: 1.0rem;
@@ -304,6 +288,45 @@ html {
     .contact_img1{
         height: 3rem;
         width: 3rem;
+    }
+    .contact_img2 {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .navbar {
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar li {
+        margin-top: 0rem;
+        padding: 1rem;
+    }
+    .nav-link a {
+        font-size: .8rem;
+    }
+    .welcome_header {
+        font-size: 1.5rem;
+    }
+    .welcome_header2 {
+        font-size: 1.1rem;
+    }
+    .project_header {
+        font-size: .8rem;
+        padding-bottom: 1rem;
+    }
+    .link_box {
+        font-size: .5rem;
+    }
+    .contact_header {
+        margin-top: 2rem;
+        font-size: 1.0rem;
+    }
+    .contact_img1{
+        height: 4rem;
+        width: 4rem;
     }
     .contact_img2 {
         height: 4rem;
